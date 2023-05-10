@@ -100,6 +100,7 @@ this to work.
 
 ```bash
 git clone https://github.com/apache/arrow-datafusion
+cd arrow-datafusion
 git checkout 12.0.0
 cd arrow-datafusion
 docker build -f datafusion-cli/Dockerfile . --tag datafusion-cli
